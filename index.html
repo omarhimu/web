@@ -1,55 +1,631 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" href="image/logo.png">
   	<title>This is my website</title>
   </head>
   <body>
-  	<img src="image/banner.jpg" alt="Background Image">
-  	 <h1>this is header tag  1 </h1>
-  	 <h2>this is header tag  2 </h2>
-  	 <h3>this is header tag  3 </h3>
-  	 <h4>this is header tag  4 </h4>
-  	 <h5>this is header tag  5 </h5>
-  	 <h6>this is header tag  6 </h6>
-  	 <p>welcome to our fist web development class.welcome to our fist web development class.welcome to our fist web development class</p>
-  	 <br><br><br>
-  	 <p><b><i>welcome to our fist web development class</i></b></p>
-  	 <h1>log<sub>2</sub></h1>
-  	 <h2>a<sup>2</sup>+b<sup>2</sup>=(a+b) (a-B)</h2>
-  	 <h1>Lorem <mark>doller</mark> rate</h1>
-  	 <h2><del>old price: 1000</del>  <mark>30% offer price: 700</mark></h2>
-  	<a href="https://www.google.com">Google</a>
-  	<ul>
-  		<li>1</li>
-  		<li>2</li>
-  		<li>3</li>
-  	</ul>
-  	<ol>
-  		<li>A</li>
-  		<li>B</li>
-  		<li>C</li>
-  	</ol>
-  	<form action="" method="">
-  		<input type="text" placeholder="Type your name">
-  		<table>
-  			<tr>
-  				<th>Name</th>
-  				<th>Age</th>
-  				<th>Email</th>
-  		</tr>
-  		<td>MD.omar sharif</td>
-  		<td>24</td>
-  		<td>omarhemo88@gmail.com</td>
-  		<tr>
-  		<td>jibon shah </td>
-  		<td>25</td>
-  		<td>jibon99@gmail.com</td>
-  		</tr>
-  		</table>
-  		<br>
-  		<br>
-<div> div is nothing just like p header</div>
-  		
-  	</form>
+<p style="text-align: center;"> <b>ASSIGNMENT</b></p>
+   
+   <div class="tbl">
+     <table border="1px" cellspacing="0" cellpadding="10px" width="100%">
+       <tr>
+    <th style="background-color: #131348; color:#fff">SI</th>
+    <th style="background-color: #131348;color:#fff">Tag Name</th>
+    <th style="background-color: #131348; color:#fff">Description</th>
+    <th style="background-color: #131348;color:#fff">Example</th>
+       </tr>
+       <tr style="text-align: center;">
+        <td>01</td>
+        <td>h1</td>
+        <td>This is heading tag</td>
+        <td><h1>This is heading tag</h1></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>02</td>
+        <td>title</td>
+        <td> Defines a title for the document</td>
+        <td>This is title </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>03</td>
+        <td>!DOCTYPE</td>
+        <td>Defines the document type</td>
+        <td>This is the document</td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>04</td>
+        <td>head</td>
+        <td>Defines information about the document</td>
+        <td>this is head</td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>05</td>
+        <td>body</td>
+        <td>Defines the document's body</td>
+        <td>The document body</td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>05</td>
+        <td>body</td>
+        <td>Defines the document's body</td>
+        <td>The document body</td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>06</td>
+        <td>br</td>
+        <td>Inserts a single line break</td>
+        <td>hi <br><br>hi</td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>07</td>
+        <td>p</td>
+        <td>Defines a paragraph</td>
+        <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>08</td>
+        <td>hr</td>
+        <td>Defines a thematic change in the content</td>
+        <td><hr>Lorem ipsum dolor sit <hr></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>09</td>
+        <td>!--...--</td>
+        <td>Defines a comment</td>
+        <td><!--hi there--></td>
+        </tr>
+         <tr style="text-align: center;">
+        <td>10</td>
+        <td>abbr</td>
+        <td>Defines an abbreviation or an acronym</td>
+        <td> <!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+              abbr { 
+                     display: inline;
+        } 
+         </style>
+       </head>
+        <body>
+        <p><abbr title="Hyper Text Markup Language">HTML</abbr> describes the structure of Web pages using markup.</p> 
+        </td>
+        </tr>
+         <tr style="text-align: center;">
+        <td>11</td>
+        <td>address</td>
+        <td>Defines contact information for the author/owner of a document/article</td>
+        <td><address>
+        Written by <a href="https://omarhblog.blogspot.com/">omar himu</a>.<br>
+        Visit us at:<br>
+        https://omarhblog.blogspot.com/ <br>
+      askar digir par ,ctg<br>
+         BAN
+          </address></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>12</td>
+        <td>b</td>
+        <td>Defines bold text</td>
+        <td><p>This is normal text - <b>and this is bold text</b>.</p></td>
+        </tr>   
+        <tr style="text-align: center;">
+        <td>13</td>
+        <td>ul</td>
+        <td>Defines an unordered list</td>
+        <td><ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        </ul></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>14</td>
+        <td>bdi</td>
+        <td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+        <td><ul>
+       <li>User <bdi>hrefs</bdi>: 60 points</li>
+       <li>User <bdi>jdoe</bdi>: 80 points</li>
+       <li>User <bdi>إيان</bdi>: 90 points</li>
+       </ul></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>15</td>
+        <td>ol</td>
+        <td>Defines an ordered list</td>
+        <td><ol start="1">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ol></td>
+     </tr>  
+       <tr style="text-align: center;">
+        <td>16</td>
+        <td>audio</td>
+        <td>Defines sound content</td>
+        <td><audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+       Your browser does not support the audio tag.
+      </audio></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>17</td>
+        <td>video</td>
+        <td>Defines a video or movie</td>
+        <td><video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>18</td>
+        <td>link</td>
+        <td>  Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+        <td> <link rel="stylesheet" type="text/css" href="styles.css">
+        <h3>I am formatted with a linked style sheet</h3>
+        <p>Me too!</p>
+      </td>
+        </tr>   
+         <tr style="text-align: center;">
+        <td>19</td>
+        <td>img</td>
+        <td>Defines an image</td>
+        <td><img src="image/logo.png" alt="image"width="82" height="82">
+      </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>20</td>
+        <td>form</td>
+        <td>Defines an HTML form for user input</td>
+        <td><form action="/action_page.php" method="get">
+  First name: <input type="text" name="omar"><br>
+  Last name: <input type="text" name="himu"><br>
+  <input type="submit" value="Submit">
+</form>
+         </td>
+        </tr>
+      <tr style="text-align: center;">  
+        <td>21</td>
+        <td>map</td>
+        <td>Defines a client-side image-map</td>
+       <td><img src="image/logo.png" width="145" height="126" alt="Planets" usemap="#planetmap">
 
- <html>
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+      </td>
+        </tr>
+         <tr style="text-align: center;">
+        <td>23</td>
+        <td>option</td>
+        <td>Defines an option in a drop-down list</td>
+        <td><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select></td>
+        </tr>     
+         <tr style="text-align: center;">
+        <td>24</td>
+        <td>label</td>
+        <td>Defines a label for an input element</td>
+        <td><form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+</form></td>
+        </tr> 
+        <tr style="text-align: center;">
+        <td>25</td>
+        <td>output</td>
+        <td>Defines the result of a calculation</td>
+        <td><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+  <input type="range" id="a" value="50">100
+  +<input type="number" id="b" value="50">
+  =<output name="x" for="a b"></output>
+</form></td>
+        </tr>  
+        <tr style="text-align: center;">
+        <td>26</td>
+        <td>del</td>
+        <td>Defines text that has been deleted from a document</td>
+        <td><p>My favorite color is <del>blue</del> <ins>red</ins>!</p></td>
+      </tr>  
+      <tr style="text-align: center;">
+        <td>27</td>
+        <td>dfn</td>
+        <td>Represents the defining instance of a term</td>
+        <td><p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>28</td>
+        <td>font</td>
+        <td>Defines font, color, and size for text</td>
+        <td><font size="3" color="red">This is some text!</font>
+<font size="2" color="blue">This is some text!</font>
+<font face="verdana" color="green">This is some text!</font></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>29</td>
+        <td>mark</td>
+        <td>Defines marked/highlighted text</td>
+        <td><p>Do not forget to buy <mark>milk</mark> today.</p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>30</td>
+        <td>meter</td>
+        <td>Defines a scalar measurement within a known range (a gauge)</td>
+        <td><meter value="2" min="0" max="10">2 out of 10</meter><br>
+        <meter value="0.6">60%</meter></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>31</td>
+        <td>pre</td>
+        <td>Defines preformatted text</td>
+        <td><pre>
+     Text in a pre element
+     font, and it preserves
+     both      spaces and
+      line breaks
+     </pre></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>32</td>
+        <td>progress</td>
+        <td>Represents the progress of a task</td>
+        <td><progress value="22" max="100"></progress></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>33</td>
+        <td>q</td>
+        <td>Defines a short quotation</td>
+        <td><p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>34</td>
+        <td>rp</td>
+        <td>Defines what to show in browsers that do not support ruby annotations</td>
+        <td><ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>35</td>
+        <td>rt</td>
+        <td>Defines an explanation/pronunciation of characters (for East Asian typography)</td>
+        <td><ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>37</td>
+        <td>ruby</td>
+        <td>Defines a ruby annotation (for East Asian typography)</td>
+        <td><ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>38</td>
+        <td>samp</td>
+        <td>Defines sample output from a computer program</td>
+        <td><samp>Sample output from a computer program</samp></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>39</td>
+        <td>small</td>
+        <td>Defines smaller text</td>
+        <td><p>Google.com - the world's largest web development site.</p>
+<p><small>Copyright 1999-2050 by Refsnes Data</small></p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>40</td>
+        <td>strike</td>
+        <td>Defines strikethrough text</td>
+        <td><p>Version 2.0 is <strike>not yet available!</strike> now available!</p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>41</td>
+        <td>strong</td>
+        <td>Defines important text</td>
+        <td><strong>Strong text</strong></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>42</td>
+        <td>sub</td>
+        <td>Defines subscripted text</td>
+        <td><p>This text contains <sub>subscript</sub> text.</p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>43</td>
+        <td>sup</td>
+        <td>Defines superscripted text</td>
+        <td><p>This text contains <sup>superscript</sup> text.</p></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>44</td>
+        <td>template</td>
+        <td>Defines a template</td>
+        <td><template>
+  <h2>Flower</h2>
+  <img src="image/bannar.jpg"width="214" height="204">
+</template></td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>46</td>
+        <td> <p>< style ></p>  </td>
+          <td> Defines style information for a document. </td>
+          <td>
+               <h1 style="color: blue">This is a heading</h1>
+               <p style="color: green">This is a paragraph.</p>
+               
+           </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>48</td>
+        <td> <p>< div ></p>  </td>
+          <td> Defines a section in a document. </td>
+          <td>
+               <p>This is some text.</p>
+
+               <div style="background-color:lightblue">
+                   <h3>This is a heading in a div element</h3>
+                   <p>This is some text in a div element.</p>
+               </div>
+
+               <p>This is some text.</p>      
+           </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>49</td>
+        <td> <p>< span ></p>  </td>
+          <td> Defines a section in a document. </td>
+          <td>
+               <p>My brother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:lightgreen;font-weight:bold">light green</span> eyes.</p>   
+           </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>50</td>
+        <td> <p>< footer ></p>  </td>
+          <td> Defines a footer for a document or section. </td>
+          <td>
+                <footer>
+                 <p>Posted by: Hege Refsnes</p>
+                 <p>Contact information: <a href="https://omarhblog.blogspot.com/">someone@example.com</a>.</p>
+                </footer>
+           </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>51</td>
+        <td> <p>< main ></p>  </td>
+          <td> Specifies the main content of a document. </td>
+          <td>
+
+            <main>
+               <h1>Web Browsers</h1>
+               <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
+ 
+            <article>
+                 <h1>Google Chrome</h1>
+            <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+            </article>
+
+            <article>
+              <h1>Internet Explorer</h1>
+              <p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+            </article>
+
+           </main> </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>52</td>
+       <td> <p>< section ></p>  </td>
+          <td> Defines a section in a document. </td>
+          <td>
+           <section>
+             <h1>WWF</h1>
+             <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund.</p>
+          </section> </td>
+        </tr> 
+         <tr style="text-align: center;">
+        <td>53</td>
+        <td> <p>< article ></p>  </td>
+          <td> Defines an article. </td>
+          <td>
+           <article>
+              <h1>Google Chrome</h1>
+            <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+           </article> </td>
+        </tr> 
+        <tr style="text-align: center;">
+        <td>54</td>
+        <td> <p>< aside ></p>  </td>
+          <td> Defines content aside from the page content. </td>
+          <td>
+          <p>My family and I visited The Epcot center this summer.</p>
+
+          <aside>
+            <h4>Epcot Center</h4>
+            <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+          </aside></td>
+        </tr> 
+        <tr style="text-align: center;">
+        <td>56</td>
+        <td> <p>< details ></p>  </td>
+          <td>  Defines additional details that the user can view or hide. </td>
+          <td>
+          <details>
+              <summary>Copyright 1999-2018.</summary>
+              <p> - by Refsnes Data. All Rights Reserved.</p>
+            <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+          </details></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>57</td>
+        <td> <p>< dialog ></p>  </td>
+          <td> Defines a dialog box or window. </td>
+          <td>
+          <dialog open>This is an open dialog window</dialog></td>
+         </tr>
+        <tr style="text-align: center;">
+        <td>56</td>
+        <td> <p>< summary ></p>  </td>
+          <td>  Defines a visible heading for a <details> element. </td>
+          <td>
+          <details>
+              <summary>Copyright 1999-2018.</summary>
+              <p> - by Refsnes Data. All Rights Reserved.</p>
+            <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+          </details></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>58</td>
+        <td> <p>< data ></p>  </td>
+          <td> Links the given content with a machine-readable translation. </td>
+          <td> <p>The following example displays product names but also associates each name with a product number:</p>
+
+             <ul>
+              <li><data value="21053">Cherry Tomato</data></li>
+              <li><data value="21054">Beef Tomato</data></li>
+              <li><data value="21055">Snack Tomato</data></li>
+             </ul></td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>59</td>
+        <td> <p>< meta ></p>  </td>
+          <td>  Defines metadata about an HTML document. </td>
+          <td> <head>
+                  <meta charset="UTF-8">
+                  <meta name="description" content="Free Web tutorials">
+                  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+                  <meta name="author" content="John Doe">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               </head>
+               <body>
+                  <p>All meta information goes in the head section...</p>
+
+               </body>
+           </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>60</td>
+        <td> <p>< base ></p>  </td>
+          <td>  Specifies the base URL/target for all relative URLs in a document. </td>
+          <td> <head>
+                  
+                   <base href="https://www.w3schools.com/" target="_blank">
+               </head>
+               <body>
+                  <p><img src="images/stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
+
+                  <p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+               </body>
+           </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>61</td>
+        <td> <p>< em ></p>  </td>
+          <td> Defines emphasized tag. </td>
+          <td> <em> This is an emphasized text.</em> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>62</td>
+        <td> <p>< button ></p>  </td>
+          <td> Defines a clickable button. </td>
+          <td> <button type="button">Click Me!</button> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>63</td>
+        <td> <p>< textarea ></p>  </td>
+          <td> Defines a multiline input control (text area). </td>
+          <td> <textarea> Write your content here. </textarea> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>64</td>
+        <td> <p>< var ></p>  </td>
+          <td> Defines a variable. </td>
+          <td> <var> Variable x </var> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>65</td>
+         <td> <p>< kbd ></p>  </td>
+          <td> Defines keyboard input. </td>
+          <td> <kbd>Keyboard input</kbd> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>66</td>
+        <td> <p>< cite ></p>  </td>
+          <td> Defines the title of a work. </td>
+          <td> <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>67</td>
+         <td> <p>< blockquote ></p>  </td>
+          <td> Defines a section that is quoted from another source. </td>
+          <td> <blockquote cite="https://omarhblog.blogspot.com/">
+               This is  tec blog. <br>
+               </blockquote> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>68</td>
+        <td> <p>< nav ></p>  </td>
+          <td> Defines navigation links. </td>
+          <td> <nav>
+               <a href="/html/">HTML</a> |
+               <a href="/css/">CSS</a> |
+               <a href="/js/">JavaScript</a> |
+               </nav> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>69</td>
+        <td> <p>< script ></p>  </td>
+          <td> Defines a client side script. </td>
+          <td>  <p id="demo"></p><script>
+                document.getElementById("demo").innerHTML = "Hello JavaScript!";
+               </script> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>70</td>
+        <td> <p>< noscript ></p>  </td>
+          <td> Defines an alternate content for users that do not support client-side scripts. </td>
+          <td>  <script> document.write("Hello World!") </script>
+                <noscript>Sorry, your browser does not support JavaScript!</noscript>
+                <p>A browser without support for JavaScript will show the text inside the noscript element.</p> </td>
+        </tr>
+       
+         <tr style="text-align: center;">
+        <td>71</td>
+         <td> <p>< embed ></p>  </td>
+          <td> Defines a container for an external (non-HTML) application. </td>
+          <td> <embed src="https://omarhblog.blogspot.com/"> </td>
+        </tr>
+        <tr style="text-align: center;">
+        <td>72</td>
+         <td> <p>< time ></p>  </td>
+          <td> Defines a date/time. </td>
+          <td> <p>We open at <time>7:00</time> every morning.</p>
+
+               <p>I have a date on <time datetime="2020-01-16 20:00">Valentines day</time>.</p>
+
+                <p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p> </td>
+        </tr>
+
+     </table>
+   </div>
+    
+  </body>
+  </html>
+  	
+  	 

@@ -1,0 +1,104 @@
+header{
+    background-color: yellow;
+    height: 100px;
+}
+.nav{
+    background-color: yellow;
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-right:20px ;
+}
+.article{
+    background-color: yellow;
+    height: 300px;
+    width: 58%;
+    float: left;
+}
+.sidebar{
+    background-color: yellow;
+    height: 300px;
+    width: 20%;
+    float: right;
+}
+.content{
+    margin-top: 30px;
+    overflow: hidden;
+}
+footer{
+    background-color: yellow;
+    height: 100px;
+    margin-top: 20px;
+}
+.top-bar{
+ overflow: hidden;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(163, 151, 172);
+    float: left;
+
+}
+.banner{
+    width: 65%;
+    height: 100px;
+    background-color: lightcoral;
+    float: right;
+}
+.header-bar{
+    height: 100px;
+    background-color: rgb(14, 233, 14);
+    margin-top: 20px;
+
+}
+.bap{
+    margin-top: 30px;
+}
+.left{
+ width: 20%;
+ height: 400px;
+ background-color: rgb(111, 205, 102);
+ float: left;
+}
+.middle{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(224, 155, 36);
+    float: left;
+    margin-left: 5%;
+}
+.top{
+    height: 100px;
+    background-color: rgb(156, 148, 141);
+}
+.center{
+    height: 200px;
+    background-color:rgb(179, 150, 98)
+
+}
+.left-center{
+width: 50%;
+height: 200px;
+background-color: rgb(30, 235, 30);
+float: left;
+}
+.right-center{
+height: 200px;
+width: 50%;
+background-color: rgb(168, 72, 72);
+float: right;
+}
+.bottom{
+    height: 100px;
+    background-color: rgb(75, 13, 156);
+}
+.right{
+    width: 20%;
+    height: 400px;
+    background-color: rgb(128, 0, 21);
+    float: right;
+}
+h1{
+    margin: 0;
+}

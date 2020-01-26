@@ -60,7 +60,7 @@ header{
 }
 .content h1{
     color: #626262;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 25px;
 }
 .content p{
@@ -68,35 +68,210 @@ header{
     line-height: 1.4;
     margin-bottom: 15px;
 }
-.minimo_one{
-	width: 45%;
-	float: left;
+.life_style{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
 }
-.minimo_one img{
-	width: 100%;
-	margin-bottom: 30px;
+.life_style1{
+    width: 45%;
+    float: left;
 }
-.minimo_two{
-	width:45%;
-	float: right;
+.life_style2{
+    width: 45%;
+    float: right;
 }
-.minimo_two img{
-	width: 100%;
-	margin-bottom: 30px;
+.life_style_img img{
+    width: 100%;
+    
 }
-.minimo_three{
-	width: 45%;
-	float: left;
+.life_style h1{
+    color: #626262;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
-.minimo_three img{
-	width: 100%;
-	margin-bottom: 30px;
+   
+.life_style p{
+    color: #626262;
+    line-height: 1.4;
+    margin-bottom: 40px;
 }
-.minimo_four{
-	width:45%;
-	float: right;
+    
+.life_style span{
+    font-size: 15px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
 }
-.minimo_four img{
-	width: 100%;
-	margin-bottom: 30px;
+.photo_diary{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
 }
+.photo_diary1{
+    width: 45%;
+    float: left;
+}
+.photo_diary2{
+    width: 45%;
+    float: right;
+}
+.photo_diary_img img{
+    width: 100%;
+    
+    
+}
+.photo_diary h1{
+    color: #626262;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+   
+.photo_diary p{
+    color: #626262;
+    line-height: 1.4;
+   
+}
+    
+.photo_diary span{
+    font-size: 15px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
+}
+.newsletter{
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-top: 80px;
+    
+}
+.newsletter_content{
+    width: 19%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+.newsletter_content h1{
+    color: #626262;
+    font-size: 23px;
+    padding-bottom: 50px;
+}
+.newsletter_content input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.life_style{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+.life_style5{
+    width: 45%;
+    float: left;
+}
+.life_style6{
+    width: 45%;
+    float: right;
+}
+.life_style_img img{
+    width: 100%;
+    
+}
+.life_style h1{
+    color: #626262;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+   
+.life_style p{
+    color: #626262;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+    
+.life_style span{
+    font-size: 15px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
+}
+.btn{
+    width: 10%;
+    margin: auto;
+    height: 250px;
+}
+.btn input{
+    padding: 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid;
+    font-size: 20px;
+}
+footer{
+    
+    height: 100px;
+    background-color: #f0f0f0;
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 40px;
+}
+.terms{
+    width: 30%;
+    float: left;
+}
+.terms ul{
+    list-style: none;
+}
+.terms ul li{
+    float: left;
+}
+.terms ul li a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social_follow{
+    width: 40%;
+    float: right;
+}
+.social_follow ul{
+    list-style: none;
+    float: right;
+}
+.social_follow li{
+    float: left;
+}
+.social_follow ul li a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+

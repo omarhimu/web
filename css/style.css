@@ -39,7 +39,7 @@ nav ul li a img{
     width: 100px;
 }
 .content{
-height: 763px;
+height: 650px;
 }
 .imge{
 
@@ -121,7 +121,7 @@ margin-bottom: 8px;
 }
 .social_follow ul li a{
     margin: 10px;
-    color: black;
+    color:#fff;
     text-decoration: none;
     text-transform: uppercase;
 }
